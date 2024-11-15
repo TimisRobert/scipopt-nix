@@ -68,7 +68,6 @@ in
     cmakeFlags =
       [
         "-D AUTOBUILD=OFF"
-        "-D IPOPT=OFF -D LAPACK=ON"
       ]
       ++ (lib.optional (papilo == null) "-D PAPILO=OFF")
       ++ (lib.optional (zimpl == null) "-D ZIMPL=OFF");
