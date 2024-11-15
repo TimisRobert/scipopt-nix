@@ -103,7 +103,7 @@
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = true;
-      sha256 = "sha256-0iLoQpsPyPCsygStU6ueT3SZb9+XlwQuC0MUuFGu0w4=";
+      sha256 = "sha256-n/83gC77dyTxJiTQwXVpQEG6N5Sql+xTGPuf1uBbX7w=";
     };
   };
   scippp = {
